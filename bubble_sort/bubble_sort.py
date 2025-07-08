@@ -5,6 +5,8 @@ def bubble_sort(unsorted_list):
                 temp=unsorted_list[j]
                 unsorted_list[j]=unsorted_list[j+1]
                 unsorted_list[j+1]=temp
+                return unsorted_list
+
 
 unsorted_list=[7,9,3,5,1]
 bubble_sort(unsorted_list),
